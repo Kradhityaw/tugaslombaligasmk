@@ -1,0 +1,389 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,200;9..40,300;9..40,400;9..40,500;9..40,600&family=Poppins:wght@200;300;400;500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: 'Roboto', sans-serif; */
+    font-family: 'DM Sans', sans-serif
+}
+
+header {
+    
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    height: 10vh;
+    /* background-color: black; */
+    align-items: center;
+}
+
+.logo {
+    width: auto;
+    height: 5vh;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav ul li a:hover {
+    color: #3a10e5;
+}
+
+.banner {
+    background-color: #f0f3ff;
+    width: 100%;
+    height: 90vh;
+}
+
+.grid {
+    display: grid;
+    grid-template-areas: 'main img';
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 600px;
+    align-items: center;
+}
+
+.main {
+    grid-area: main;
+}
+
+.grid img {
+    grid-area: img;
+    height: 90%;
+}
+
+.grid main{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 400px;
+    font-family: 'Roboto', sans-serif;
+}
+
+main h1 {
+    font-size: 50px;
+}
+
+main button {
+    background-color: #3a10e5;
+    color: white;
+    padding: 15px 20px 15px 20px;
+    display: flex;
+    border-radius: 5px;
+    border: none;
+}
+
+main button span {
+    margin-right: 30px;
+    font-weight: 600;
+}
+
+.lebar {
+    width: 100%;
+}
+
+.yellow {
+    width: 100%;
+    height: 30vh;
+    background-color: #facb3b;
+    display: flex;
+    align-items: center;
+}
+
+.flex {
+    display: flex;
+    gap: 100px;
+}
+
+.card {
+    display: flex;
+    gap: 20px;
+    width: 100%;
+}
+
+.card h1 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+section {
+    padding: 6rem 0 2rem;
+}
+
+.secondnav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 3rem;
+}
+
+.secondnavUL {
+    display: flex;
+    flex-direction: row;
+}
+
+.secondnavUL li {
+    list-style: none;
+}
+
+.secondnavUL li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 15px;
+    padding: 10px;
+    transition: 0.3s;
+}
+
+.secondnavUL li a:hover {
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+
+.secondnav h1 {
+    z-index: 0;
+}
+
+.secondnav span {
+    background: linear-gradient(to top, #fdd5a1 50%, transparent 50%) ;
+}
+
+.kartu {
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    width: 260px;
+}
+
+.flex2 {
+    display: flex;
+    align-items: center;
+}
+
+.burger {
+    width: 11px;
+}
+
+.desk {
+    padding: 20px 20px 30px 20px;
+}
+
+.desk p {
+    color: #3a10e5;
+    font-weight: bold;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.kartulogo {
+    width: 100%;
+}
+
+.flex3 {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.flex2 a {
+    font-size: 12px;
+}
+
+.desk h3 {
+    overflow: hidden;
+    margin-bottom: 18px;
+}
+
+.brown {
+    width: 100%;
+    height: 40vh;
+    background-color: #fff0e5;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.member {
+    width: 20%;
+    margin-right: 60px;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+}
+
+.row h1 {
+    width: 450px;
+    font-size: 35px;
+    margin-right: 80px;
+}
+
+.row button {
+    background-color: #3a10e5;
+    color: white;
+    padding: 15px 20px 15px 20px;
+    display: flex;
+    border-radius: 5px;
+    border: none;
+}
+
+.row button span {
+    margin-right: 30px;
+    font-weight: 600;
+}
+
+.judul span {
+    background: linear-gradient(to top, #fdd5a1 50%, transparent 50%) ;
+}
+
+.judul {
+    text-align: center;
+    padding-bottom: 4rem;
+    font-size: 32px;
+}
+
+.samping {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.kategori {
+    width: 20%;
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    /* background-color: red; */
+    box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
+}
+
+.kategori img {
+    /* background-color: gray; */
+    /* width: 80%; */
+    /* padding: 20px; */
+    /* margin-right: 20px; */
+    padding: 5px;
+}
+
+.kategori h1 {
+    margin-bottom: 5px;
+    font-size: 20px;
+}
+
+.kategori {
+    font-size: 12px;
+}
+
+.shadow {
+    background-color: #f0f3ff;
+    padding: 11px;
+    border-radius: 50%;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.mid {
+    display: flex;
+    justify-content: center;
+    padding-top: 4rem;
+    text-decoration: none;
+    color: #3a10e5;
+    font-weight: bold;
+}
+
+.tengah {
+    width: 100%;
+    height: 60vh;
+    background-color: #f0f3ff;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.padding {
+    width: 430px;
+}
+
+.skill {
+    width: 30%;
+}
+
+.padding h1 {
+    font-size: 40px;
+    padding-bottom: 20px;
+}
+
+.padding p {
+    padding-bottom: 30px;
+}
+
+.padding button {
+    background-color: #3a10e5;
+    color: white;
+    padding: 15px 20px 15px 20px;
+    display: flex;
+    border-radius: 5px;
+    border: none;
+}
+
+.padding button span {
+    margin-right: 30px;
+    font-weight: 600;
+}
+
+.title {
+    display: grid;
+    grid-template-columns: 'article p';
+    grid-template-rows: 60px;
+    max-width: 200px;
+    outline: 1px solid red;
+}
+
+.title h2 {
+    grid-area: h2;
+    text-align: center;
+}
+
+.title p {
+    grid-area: p;
+    text-align: center;
+}
+
+.title h3 {
+    grid-area: span;
+    text-align: center;
+}
+
+article {
+    border-right: 1px solid red;
+}
+
+.batas {
+    max-width: 1100px;
+    margin-right: auto;
+    margin-left: auto;
+}
